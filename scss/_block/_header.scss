@@ -1,0 +1,45 @@
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .log-in {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    .form {
+      background-color: $secondry-bg-color;
+
+      color: $white-color;
+      border-radius: 4px;
+      @include menu;
+      line-height: 19.6px;
+      padding: 16px 24px;
+    }
+  }
+  .header-inner__menu {
+    display: flex;
+    align-items: center;
+    padding: 22px 0;
+    nav ul {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      list-style: none;
+
+      .bottom {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      a {
+        @include menu;
+        color: $black-color;
+        text-decoration: none;
+        p {
+          @include menu;
+          color: $black-color;
+        }
+      }
+    }
+  }
+}

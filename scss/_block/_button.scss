@@ -1,0 +1,32 @@
+.header-inner {
+  nav ul li {
+    a {
+      transition: 0.3s ease;
+      p {
+        transition: 0.3s ease;
+      }
+      &:hover {
+        color: $secondry-color;
+        p,
+        img {
+          color: $secondry-color;
+        }
+      }
+    }
+  }
+  .log-in {
+    p {
+      transition: .3s ease;
+      &:hover {
+        color: $secondry-color;
+      }
+    }
+    .form {
+      transition: .3s ease;
+      &:hover {
+        color: $primary-color;
+        
+      }
+    }
+  }
+}

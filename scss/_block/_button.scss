@@ -16,17 +16,33 @@
   }
   .log-in {
     p {
-      transition: .3s ease;
+      transition: 0.3s ease;
       &:hover {
         color: $secondry-color;
       }
     }
     .form {
-      transition: .3s ease;
+      transition: 0.3s ease;
       &:hover {
         color: $primary-color;
-        
       }
+    }
+  }
+}
+.people-inner {
+  a {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    background-color: rgba(10, 97, 247, 1);
+    padding: 20px 48px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: $white-color;
+    transition: .3s ease;
+    &:hover {
+      color: $primary-color;
     }
   }
 }
